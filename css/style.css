@@ -5,3 +5,48 @@
     box-sizing: border-box;
 }
 /*reset*/
+
+body{
+    background-color: #484A47;
+}
+
+/*utils*/
+.flex{
+    display:flex;
+}
+.border-black{
+    border: 1px solid black;
+}
+/*utils*/
+/*tabella*/
+.container{
+    max-width: 62.5rem;
+    width: 50%;
+    margin: 3.125rem auto;
+}
+/*head row*/
+header{
+    padding: .625rem;
+    background-color:#5C6D70;
+    margin-bottom: .3125rem;
+}
+/*head row*/
+
+/*corpo tabella*/
+main{
+    margin-bottom:.3125rem;
+}
+.position{
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-right: .3125rem;
+  background-color: #BFBFBF;  
+}
+.email-box{
+    flex-grow: 1;
+    background-color: #E0AC9D;
+}
+/*corpo tabella*/
+
+/*Tabella*/
+
