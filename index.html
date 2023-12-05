@@ -24,21 +24,28 @@
         </header>
         <!--/head row-->
 
-        <main class="flex">
-            <!--tabella indice-->
-            <div class="position border-black">
+        <!--table body-->
+        <div class="flex pad" v-for="(email, index) in emails">
+
+            <!--table index-->
+            <div class="position border-black flex align-center">
+                {{index + 1}}
             </div>
-            <!--tabella indice-->
-            
+            <!--table index-->
+
             <!--contenitore email generate-->
-            <div class="email-box border-black">
+            <div class="email-box border-black flex align-center">
+                {{email}}
             </div>
             <!--/contenitore email generate-->
-        </main>
+
+        </div>
+        <!--table body-->
+
     </div>
     <!--/contenitore-->
-    
-<!--vuejs-->
+
+    <!--vuejs-->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!--/vuejs-->
 
